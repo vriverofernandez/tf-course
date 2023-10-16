@@ -32,4 +32,8 @@ variable "subnet_address_prefix" {
     description = "direccionamiento subnet"
 }
 
+variable "nsg_name" {
+    type = string
+    description = "nombre del nsg"
+}
 
